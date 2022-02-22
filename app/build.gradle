@@ -25,6 +25,8 @@ android {
 
         implementation project(":terminal-view")
         implementation project(":termux-shared")
+
+        implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
     }
 
     defaultConfig {
